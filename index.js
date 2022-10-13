@@ -1,0 +1,16 @@
+// var number = 10.2;
+// console.log(number);
+//   var number = 10.2;
+//   console.log(number);
+//   console.log(Math.floor(a / b));
+//   console.log(Math.round(a / b));
+//   console.log(a % b);
+//   console.log(Math.random());
+var a = 20;
+var b = 3;
+let initialRandom = Math.random();
+let minimumNumber = 1;
+let maximumNumber = 6;
+let randomNumber = initialRandom * maximumNumber;
+let finalNumber = Math.floor(randomNumber) + minimumNumber;
+console.log(randomNumber, finalNumber);
